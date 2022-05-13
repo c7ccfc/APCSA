@@ -1,0 +1,45 @@
+//pieces for player 1
+        Chick C1 = new Chick(1);
+        Elephant E1 = new Elephant(1);
+        Giraffe G1 = new Giraffe(1);
+        Lion L1 = new Lion(1);
+        
+        //pieces for player 2
+        Chick C2 = new Chick(-1);
+        Elephant E2 = new Elephant(-1);
+        Giraffe G2 = new Giraffe(-1);
+        Lion L2 = new Lion(-1);
+
+        //empty space objects
+        Empty O0 = new Empty();
+        Empty O1 = new Empty();
+        Empty O2 = new Empty();
+        Empty O3 = new Empty();
+        Empty O4 = new Empty();
+        Empty O5 = new Empty();
+        Empty O6 = new Empty();
+        Empty O7 = new Empty();
+        Empty O8 = new Empty();
+        Empty O9 = new Empty();
+        
+        //place pieces in correct place
+        board[0][1] = L2;
+        board[0][0] = G2;
+        board[0][2] = E2;
+        board[1][0] = O0;
+        board[1][1] = C2;
+        board[1][2] = O1;
+        board[2][0] = O2;
+        board[2][1] = C1;
+        board[2][2] = O3;
+        board[3][0] = E1;
+        board[3][1] = L1;
+        board[3][2] = G1;
+
+        //place pieces on the table
+        table[0] = O4;
+        table[1] = O5;
+        table[2] = O6;
+        table[3] = O7;
+        table[4] = O8;
+        table[5] = O9;

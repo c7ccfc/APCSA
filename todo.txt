@@ -1,0 +1,5 @@
+player pockets (size of 6)
+do i really have to replace empty and animal when move (not using null?)
+make move method
+method that checks possibility of motion
+array list table?
